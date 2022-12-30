@@ -1,0 +1,74 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/msg/index",
+			"style": {
+				"navigationBarTitleText": "公开"
+			}
+		},
+		{
+			"path": "pages/add/index",
+			"style": {
+				"navigationBarTitleText": "发布"
+			}
+		},
+		{
+			"path": "pages/wish/index",
+			"style": {
+				"navigationBarTitleText": "心愿"
+			}
+		},
+		{
+			"path": "pages/individual/index",
+			"style": {
+				"navigationBarTitleText": "个人"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/ico/home.png",
+				"selectedIconPath": "static/ico/home-active.png"
+			},
+			{
+				"pagePath": "pages/msg/index",
+				"text": "公开",
+				"iconPath": "static/ico/msg.png",
+				"selectedIconPath": "static/ico/msg-active.png"
+			},
+			{
+				"pagePath": "pages/add/index",
+				"text": "发布",
+				"iconPath": "static/ico/add.png"
+			},
+			{
+				"pagePath": "pages/wish/index",
+				"text": "许愿",
+				"iconPath": "static/ico/wish.png",
+				"selectedIconPath": "static/ico/wish-active.png"
+			},
+			{
+				"pagePath": "pages/individual/index",
+				"text": "个人",
+				"iconPath": "static/ico/me.png",
+				"selectedIconPath": "static/ico/me-active.png"
+			}
+		]
+	}
+}
